@@ -1,0 +1,38 @@
+import random
+print("Welcome to Rock,Paper,Scissor game!")
+while True:
+    user_score=0
+    computer_score=0
+    choices = ["Rock", "Paper", "Scissor"]
+    userchoice=input("Enter Rock or Paper or Scissor : ")
+    computerchoice = random.choice(choices)
+    print(f"You chose: {userchoice}")
+    print(f"Computer chose: {computerchoice}")
+    if(userchoice=="scissor" and computerchoice=="Paper"):
+      print("userchoice is win")
+      user_score+=1
+    elif(userchoice=="scissor" and computerchoice=="Rock"):
+      print("computerchoice is win")
+      computer_score+=1
+    elif(userchoice=="Paper" and computerchoice=="Rock"):
+      print("userchoice is win")
+      user_score+=1
+    elif(userchoice=="Paper" and computerchoice=="scissor"):
+      print("comuterchoice is win")
+      computer_score+=1
+    elif(userchoice=="Rock" and computerchoice=="Paper"):
+      print("computerchoice is win")
+      computer_score+=1
+    elif(userchoice=="Rock" and computerchoice=="scissor"):
+      print("userchoice is win")
+      user_score+=1
+    else:
+      print("The game is tie")
+    print(f"Your score is : {user_score}")
+    print(f"computer score is: {computer_score}")
+    if(user_score>computer_score):
+      print("user is winner")
+    else:
+      print("computer is winner")
+    print("Do you want play again ?")
+
