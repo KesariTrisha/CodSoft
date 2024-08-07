@@ -15,7 +15,7 @@ Task-2:"Rock Paper and Scissor Game"
 
 Task-3:"Password Generator"
      
-     I have completed my third task to generate a password.First we have to take a lists to store a Specialsymbols,Uppercase,Lowercase,Numbers.Then we have to ask questions to the user how 
+     I have completed my third task to generate a password.First we have to take a lists to store a Specialsymbols,Uppercase,Lowercase,Numbers.Then we have to ask questions to the use how 
      many numbers do you want and how many specialsymbols do you want and how many letters do you want?.The password must be contain atleast 12 characters.Then we have to check all 
      conditions if it is true then the output is final_password.
 
